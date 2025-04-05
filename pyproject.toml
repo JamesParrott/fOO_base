@@ -8,7 +8,8 @@ name = "FOO"
 version = "0.0.0"
 description = "A minimal buildable Python repo."
 
-
+[tool.hatch.build.targets.wheel]
+packages = ["src/FOO"]
 
 
 
